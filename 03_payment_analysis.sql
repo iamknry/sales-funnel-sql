@@ -1,6 +1,6 @@
 SET search_path TO olist, public;
 
--- Avarage and Median Order Value
+-- Average and Median Order Value
 WITH order_totals AS (
     SELECT 
         order_id,
